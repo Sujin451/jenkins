@@ -1,0 +1,25 @@
+import boto3
+import csv
+def SG(writer):
+  client = boto3.client('ec2', region_name="eu-west-1", aws_access_key_id="AKIAS35V3QCOPNVXWVVZ", aws_secret_access_key="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")
+  
+  dict01={}
+  list_inst = client.describe_instances()
+  for i in list_inst['Reservations']:
+  #print(i)
+    for j in i['Instances']:
+      print(j['InstanceId'],j['VpcId'])
+      dict01["InstanceId"] = j['InstanceId']
+      dict01["VpcId"] = j['VpcId']
+      writer.writerow(dict01)
+  print("CSV for SG's created successfully")
+
+def main():
+ fieldnames = ["InstanceId","VpcId",]
+ file_name = "dict01.csv"
+ with open (file_name,"w",newline='') as csv_file:
+  writer = csv.DictWriter(csv_file,fieldnames=fieldnames)
+  writer.writeheader()
+  SG(writer)
+main()
+
