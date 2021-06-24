@@ -1,7 +1,7 @@
 import boto3
 import csv
 def SG(writer):
-  client = boto3.client('ec2', region_name="eu-west-1", aws_access_key_id="AKIAS35V3QCOPNVXWVVZ", aws_secret_access_key="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")
+  client = boto3.client('ec2', region_name="eu-west-1", aws_access_key_id="
   
   dict01={}
   list_inst = client.describe_instances()
