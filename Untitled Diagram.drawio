@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T10:27:34.577Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.0.8" etag="17wGCIdyhDO06Qp1GV9u" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
   <diagram name="Page-1" id="e7f694dPKGcMbMSMB9xn">
-    <mxGraphModel>
+    <mxGraphModel dx="1360" dy="820" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TXt0eHbndV74ryxo7XQM-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TXt0eHbndV74ryxo7XQM-1" target="TXt0eHbndV74ryxo7XQM-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="540" />
+              <mxPoint x="440" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TXt0eHbndV74ryxo7XQM-1" value="&lt;b&gt;Stage-1 - Sequential&lt;/b&gt;&lt;div&gt;leap-sst-urlshortener&lt;/div&gt;&lt;div&gt;leap-sst-surveys&lt;/div&gt;&lt;div&gt;leap-api&lt;/div&gt;&lt;div&gt;leap-infra-resources&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="390" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TXt0eHbndV74ryxo7XQM-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TXt0eHbndV74ryxo7XQM-2" target="TXt0eHbndV74ryxo7XQM-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="800" />
+              <mxPoint x="440" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TXt0eHbndV74ryxo7XQM-2" value="&lt;b&gt;Stage2 - Parallel&lt;/b&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; leap-service-error-handling&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; leap-service-dm-fulfillment&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; leap-service-event&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; leap-operations&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; leap-ops-monitoring&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; leap-service-adherence&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; leap-service-consent&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; leap-service-copay-fto&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; leap-service-data-versioning&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; leap-service-enrollment&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; leap-service-patient&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; leap-service-patient-mulesoft&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="560" width="370" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="TXt0eHbndV74ryxo7XQM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="TXt0eHbndV74ryxo7XQM-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TXt0eHbndV74ryxo7XQM-7" value="&lt;b&gt;Send Email&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TXt0eHbndV74ryxo7XQM-10" value="OneClick-Jenkins Pipeline for QA/HOTFIX -FROGS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#e18484;labelBorderColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="281" width="440" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
