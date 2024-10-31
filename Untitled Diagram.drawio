@@ -38,16 +38,16 @@
           <mxGeometry x="220" y="143" width="440" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9kO7idEnh1H28RP5yMTw-4" value="leap-api&lt;div&gt;leap-infra-resources&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="468" y="415" width="120" height="60" as="geometry" />
+          <mxGeometry x="468" y="411" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9kO7idEnh1H28RP5yMTw-5" value="&lt;span style=&quot;background-color: initial;&quot;&gt;leap-sst-urlshortener&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;leap-sst-surveys&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="277" y="418" width="120" height="60" as="geometry" />
+          <mxGeometry x="277" y="412" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9kO7idEnh1H28RP5yMTw-6" value="Parallel" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="307" y="385" width="60" height="30" as="geometry" />
+          <mxGeometry x="307" y="378" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9kO7idEnh1H28RP5yMTw-7" value="Sequential" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="500" y="385" width="60" height="30" as="geometry" />
+          <mxGeometry x="500" y="379" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9kO7idEnh1H28RP5yMTw-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
