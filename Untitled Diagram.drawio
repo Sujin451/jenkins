@@ -1,10 +1,10 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
   <diagram name="Page-1" id="e7f694dPKGcMbMSMB9xn">
-    <mxGraphModel dx="1360" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="972" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="9kO7idEnh1H28RP5yMTw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="9kO7idEnh1H28RP5yMTw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="439.29999999999995" y="517" as="sourcePoint" />
             <mxPoint x="439" y="577" as="targetPoint" />
@@ -37,31 +37,31 @@
         <mxCell id="TXt0eHbndV74ryxo7XQM-10" value="OneClick-Jenkins Pipeline for QA/HOTFIX -FROGS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#e18484;labelBorderColor=none;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="220" y="143" width="440" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9kO7idEnh1H28RP5yMTw-4" value="leap-api&lt;div&gt;leap-infra-resources&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9kO7idEnh1H28RP5yMTw-4" value="&lt;div&gt;leap-infra-resources&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="468" y="411" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9kO7idEnh1H28RP5yMTw-5" value="&lt;span style=&quot;background-color: initial;&quot;&gt;leap-sst-urlshortener&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;leap-sst-surveys&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9kO7idEnh1H28RP5yMTw-5" value="&lt;span style=&quot;background-color: initial;&quot;&gt;leap-sst-urlshortener&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;leap-sst-surveys&lt;/span&gt;&lt;div&gt;leap-api&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="277" y="412" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9kO7idEnh1H28RP5yMTw-6" value="Parallel" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="9kO7idEnh1H28RP5yMTw-6" value="Parallel" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="307" y="378" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9kO7idEnh1H28RP5yMTw-7" value="Sequential" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="9kO7idEnh1H28RP5yMTw-7" value="Sequential" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="500" y="379" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9kO7idEnh1H28RP5yMTw-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+        <mxCell id="9kO7idEnh1H28RP5yMTw-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="444" y="320" as="sourcePoint" />
             <mxPoint x="439.29999999999995" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9kO7idEnh1H28RP5yMTw-12" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9kO7idEnh1H28RP5yMTw-12" value="Start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="240" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9kO7idEnh1H28RP5yMTw-21" value="&lt;b&gt;Stage 1&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="9kO7idEnh1H28RP5yMTw-21" value="&lt;b&gt;Stage 1&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="320" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9kO7idEnh1H28RP5yMTw-22" value="Stage 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="9kO7idEnh1H28RP5yMTw-22" value="Stage 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="313" y="548" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
